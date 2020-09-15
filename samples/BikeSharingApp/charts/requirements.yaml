@@ -6,7 +6,7 @@ dependencies:
     version: 0.1.0
     repository: "file://../Bikes/charts/bikes"
   - name: bikesharingweb
-    version: 0.1.0
+    version: 0.2.0
     repository: "file://../BikeSharingWeb/charts/bikesharingweb"
   - name: billing
     version: 0.1.0

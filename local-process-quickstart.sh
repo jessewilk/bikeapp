@@ -141,7 +141,6 @@ $HELMDIR/helm install "$INGRESSNAME-$BIKENS" stable/traefik \
 echo ""
 echo "Waiting for BikeSharing ingress Public IP to be assigned..."
 while [ -z "$PUBLICIP" ]; do
-  sleep 5
   PUBLICIP=$(kubectl get svc -n $BIKENS $INGRESSNAME -o jsonpath={.status.loadBalancer.ingress[0].ip})
 done
 echo ""
