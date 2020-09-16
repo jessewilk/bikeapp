@@ -5,7 +5,7 @@
 apiName: gateway
 
 fullnameOverride: bikesharingweb
-replicaCount: 4
+replicaCount: 1
 image:
   repository: azdspublic/bikesharing-bikesharingweb
   tag: build.20200723.1
