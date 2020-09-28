@@ -4,11 +4,11 @@
 
 apiName: gateway
 
-fullnameOverride: bikesharingweb
+fullnameOverride: bikesharingweb-test
 replicaCount: 1
 image:
-  repository: azdspublic/bikesharing-bikesharingweb
-  tag: build.20200723.1
+  repository: myhelmjwilk.azurecr.io/bikesharing-bikesharingweb
+  tag: latest
   pullPolicy: IfNotPresent
 imagePullSecrets: []
   # Optionally specify an array of imagePullSecrets.
